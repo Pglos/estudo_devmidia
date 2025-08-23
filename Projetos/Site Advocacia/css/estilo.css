@@ -1,0 +1,73 @@
+/* TAG GLOBAL */ 
+
+h1, h2 h3{
+    margin: 0;
+}
+
+/* SECAO MENU */ 
+
+.secao-topo{
+    border-bottom: 1px solid black;
+}
+
+.largura-lim{
+    width:800px;
+    margin: 0 auto;
+}
+
+.secao-topo p{
+    padding: 20px;
+    font-size:22px;
+    font-weight: bold;
+}
+
+/* SECAO CAPA */ 
+
+.secao-capa{
+    min-height: 500px;
+    background-color: rgb(165, 165, 165);
+    /* background-image: url('img/capa.jpg');*/
+    background-size: cover;
+}
+
+.secao-capa-conteudo{
+    text-align: right;
+    padding: 50px 20px;
+}
+
+/*SECAO CONTEUDO */ 
+
+.secao-coteudo{
+    padding: 50px 20px ;
+}
+
+.img-conteudo{
+    width: 250px;
+    height: 180px;
+}
+
+.secao-coteudo span{
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/*  SECAO DIVISAO */ 
+
+.secao-divisao{
+    padding: 50px 0 ;
+    text-align: center;
+    background-color: rgb(121, 121, 121);
+    /*background-image: url('img/fundo');*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao-divisao h3{
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}

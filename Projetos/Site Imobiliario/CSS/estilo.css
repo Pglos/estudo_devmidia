@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: Tahoma;
+    
+}
+
+
+ .secao{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 820px;
+
+}
+
+/*   TOPO  */
+
+.topo{
+    background-color: #afddfb;    
+}
+
+.topo img{
+    width: 150px;
+   
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.link-topo {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/*  SOBRE */
+
+.sobre img{
+    width: 450px;
+}
+
+/* SERVICOS */ 
+.servicos{
+    background-color:#1d80c1 ;
+
+}
+
+.servicos h2{
+    color: white;
+    margin:25px;
+}
+
+.servicos ul {
+    font-size: 22px;
+    color: white;
+    width: 135px;
+    margin: 40px auto;
+}
+
+.servicos p{
+    color: white;
+}
+
+/* CORRETOR */ 
+
+.ha3{
+    text-align: center;
+    color: #afddfb;
+    margin: 10px;
+
+}
+
+.imc{
+    width: 450px;
+    margin: 20px 560px;
+}
+
+
+
+/* CONTATO */ 
+
+.contato {
+background-color: #1d80c1;
+   padding: 20px;
+
+}
+co
+
+.contato h3, iframe, p{
+    margin:15px;
+}
+
+.contato a{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contato ul {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.contato iframe{
+    width: 560px;
+    border-radius: 20px;
+}
+
