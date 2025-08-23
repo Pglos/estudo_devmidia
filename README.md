@@ -1,2 +1,2 @@
-# estudo_devmidia
+# Estudo do Curso DevMedia
 repositrio de estudos
