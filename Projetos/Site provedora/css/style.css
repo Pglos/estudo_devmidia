@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/*  SECAO HOME  */ 
+
+.topo{
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.topo-largura{
+    background-color: aliceblue;
+    position: relative;
+    width: 1024px;
+    top: 10%;
+    left: 25%;
+}
+
+.logo img{
+    padding: 10px;
+    width: 100px;
+}
+
+.logo h1 {
+   display: inline;
+   position: absolute;
+   top: 10%;
+}
+
+.logo p {
+   display: inline;
+   position: absolute;
+   top: 55%;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    right:15%;
+    top: 40%;
+}
+
+/* SECAO BANNER */ 
+
+.banner{
+    background-color: #2f86d6;
+    height: 600px;
+}
+
+.banner-tx-img{
+    width: 1024px;
+    height: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    left: 25px;
+}
+
+.banner-texto{
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+}
+
+.banner-texto h2{
+    color: aliceblue;
+    margin: 15px 0;
+   
+}
+.banner-texto p{
+    color: aliceblue;
+}
+
+.banner-img{
+    position: absolute;
+    right: 0;
+    
+}
+.banner-img img{
+    width: 400px;
+    padding-left: 50px;
+}
+
+/*-----------------------------------------------*/
+
+/* SECAO ANUNCIO */ 
+
+.anuncio{
+    background-color: #233032;
+    height: 150px;
+    position: relative;
+
+}
+
+.anuncio-al{
+    width: 1024px;
+    color:aliceblue ;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.anuncio-al a{
+    padding: 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:  #2f86d6;
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+
+}
+
+/*----------------------------------------------------*/
+
+/* SECAO INFORMACOES */ 
+
+.info{
+    background-color: aliceblue;
+    height: 600px;
+    position: relative;
+}
+
+.ingo-al{
+    position: absolute;
+    top: 25%;
+    
+
+}
+
+.info-text{
+    width: 1024px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    
+    
+}
+
+.info-icon{
+    width: 102;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+
+.info-icon-un{
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+
+}
+.info-icon img{
+    width: 120px;
+
+}
+
+/* SECAO TABELA */ 
+
+
